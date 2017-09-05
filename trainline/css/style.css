@@ -7,7 +7,41 @@ body{
 }
 
 .navbar img{
-    padding: 10px;
+    margin-top: 13px;
+    margin-left: 15px;
     width:100px;
     height: auto;
 }
+
+.navbar button{
+    margin-top: 6px;
+    margin-right: 10px;
+    background-color: #01C3A7;
+    text-transform: uppercase;
+}
+
+.navbar a{
+    color:white;
+    display: inline-block;
+    height: 100%;
+    margin : auto;
+}
+
+#fr-flag{
+    height: 20px;
+    width: 30px;
+    margin: auto;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+#eur{
+    border: 2px solid grey;
+    border-radius: 5px;
+    height: 20px;
+    width: 30px;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0;
+}
+
