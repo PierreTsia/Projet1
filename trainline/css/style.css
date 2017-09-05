@@ -100,6 +100,14 @@ body{
     background-color: red;
     margin-top:50px;
     border-radius:5px;
+    padding: 20px;
 
 }
 
+.panel .form-group{
+    margin-bottom: 50px;
+}
+
+.panel .form-group label{
+    font-size : 1.5em;
+}
