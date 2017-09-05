@@ -1,3 +1,13 @@
 body{
     margin-top: 50px;
 }
+
+.navbar {
+    background-color: rgba(33,49,77,.8);
+}
+
+.navbar img{
+    padding: 10px;
+    width:100px;
+    height: auto;
+}
