@@ -1,9 +1,14 @@
 body{
     margin-top: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
 }
+
+/*NAVBAR*/
 
 .navbar {
     background-color: rgba(33,49,77,.8);
+   
 }
 
 .navbar img{
@@ -43,5 +48,58 @@ body{
     font-size: 0.8em;
     text-align: center;
     padding: 0;
+}
+
+/*MAIN BLOCK*/
+
+.container-fluid{
+    height: 700px;
+    background-color: lightblue;
+    color:#fff;
+}
+
+#main-block h1{
+    font-weight: 900;
+    text-shadow: 0 1px 4px rgba(48,50,58,.6);
+    padding: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+
+#main-block p{
+    
+    text-shadow: 0 1px 4px rgba(48,50,58,.6);
+    padding: 0 20 20 20;
+    font-size :1.5em;
+    margin-top: 0;
+    text-align: center;
+}
+
+ #ember{
+    margin: auto;
+    height: 460px;
+    
+}
+
+#search-form {
+   
+    height: 100%;
+    
+}
+
+#petit-plus {
+
+    height: 100%;
+    
+}
+
+.panel {
+    width: 95%;
+    height: 100%;
+    background-color: red;
+    margin-top:50px;
+    border-radius:5px;
+
 }
 
