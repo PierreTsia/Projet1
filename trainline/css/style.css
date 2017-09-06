@@ -155,3 +155,23 @@ body{
 .panel .form-group label{
     font-size : 1.5em;
 }
+
+/*SECTION*/
+
+#partners {
+    height: 300px;
+    background-color: blue;
+}
+
+section .col-md-6 p{
+    color: black;
+
+}
+
+
+/*PROVISOIRE*/
+
+.container {
+    border: 2px solid green;
+}
+

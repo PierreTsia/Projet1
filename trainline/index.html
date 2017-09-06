@@ -1,133 +1,290 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
 
-    <style>
-            @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900');
-            </style>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
 
-    <title>Trainline Mockup</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900');
+  </style>
 
-    <style>
-    #main-block{
-    background-image: url(img/train-bg.jpg);
-}
-    </style>
+  <title>Trainline Mockup</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+  <!-- Custom styles for this template -->
+  <link href="starter-template.css" rel="stylesheet">
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-   
-  </head>
 
-  <body>
+</head>
 
-    <nav class="navbar navbar-default">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="img/header_logo.png" alt="trainline_logo">
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="img/header_logo.png" alt="trainline_logo">
+      </div>
+      <div id class="col-md-6">
+        <ul>
+          <li><button type="button" class="btn btn-primary">Créer un compte</button></li>
+          <li><button type="button" class="btn btn-primary">Se connecter</button></li>
+          <li>
+            <div id="help">
+              <a href="#" role="button">AIDE</a>
             </div>
-            <div id class="col-md-6">
-              <ul> 
-                  <li><button type="button" class="btn btn-primary">Créer un compte</button></li>
-                  <li><button type="button" class="btn btn-primary">Se connecter</button></li>
-                  <li><div id="help">
-                      <a href="#" role="button">AIDE</a>
-                 </div></li>
-                 <li><a href="#"><img id="fr-flag" src="img/flagFR-icon.svg" alt="French"></a></li>
-                 <li><a id="eur" class="btn btn-outline-info" href="#" role="button">EUR</a></li>
-              </ul> 
-                
-                
-               
-               
-                
-                
-                
-                
-                
-                
-                        
-                    </div> 
-                
+          </li>
+          <li><a href="#"><img id="fr-flag" src="img/flagFR-icon.svg" alt="French"></a></li>
+          <li><a id="eur" class="btn btn-outline-info" href="#" role="button">EUR</a></li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    </div>
+  </nav>
+
+  <div id="main-block" class="container-fluid">
+    <div class="container">
+      <h1>Réservez vos billets de train. En France et en Europe.</h1>
+      <p>Voyagez avec Trainline, leader indépendant de la vente de billets de train en Europe.</p>
+
+    </div>
+    <div id="ember" class="container">
+      <div id="search-form" class="col-md-6">
+        <div class="panel">
+          <form>
+            <div class="form-group">
+              <label class="form-control-label" for="formGroupExampleInput">Quel est votre trajet ?</label>
+              <input type="text" class="form-control" id="gareDepart" placeholder="Saisissez votre gare de départ...">
+              <input type="text" class="form-control" id="gareArrivee" placeholder="Saisissez votre gare d'arrivée...">
+
             </div>
+
+            <div class="form-group">
+
+              <input type="text" class="form-control" id="aller" placeholder="Aller">
+              <input type="text" class="form-control" id="retour" placeholder="Retour">
+
+            </div>
+
+          </form>
+
+
         </div>
-        </nav>
-
-    <div id="main-block" class="container-fluid">
-       <div class="container">
-        <h1>Réservez vos billets de train. En France et en Europe.</h1> 
-        <p>Voyagez avec Trainline, leader indépendant de la vente de billets de train en Europe.</p> 
-        
-       </div>
-       <div id="ember"  class="container">
-           <div id="search-form" class="col-md-6">
-               <div class="panel">
-                    <form>
-                            <div class="form-group">
-                              <label class="form-control-label" for="formGroupExampleInput">Quel est votre trajet ?</label>
-                              <input type="text" class="form-control" id="gareDepart" placeholder="Saisissez votre gare de départ...">
-                              <input type="text" class="form-control" id="gareArrivee" placeholder="Saisissez votre gare d'arrivée...">
-                              
-                            </div>
-
-                            <div class="form-group">
-                                    
-                                    <input type="text" class="form-control" id="aller" placeholder="Aller">
-                                    <input type="text" class="form-control" id="retour" placeholder="Retour">
-                                    
-                                  </div>
-                            
-                          </form>
+      </div>
 
 
-               </div>
-            </div>
+      <div id="petit-plus" class="col-md-6">
+        <div class="panel">test2</div>
+      </div>
+
+    </div>
 
 
-           <div id="petit-plus"class="col-md-6">
-                <div class="panel">test2</div> 
-           </div>
+    <section>
 
-       </div>
+      <div class="container" id="partners">
 
-     
 
-    </div><!-- /.container -->
+      </div>
+
+      <div class="container">
+        <div class="col-md-6">
+          <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le
+            Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla
+            ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre
+            cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié.
+            Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem
+            Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+        </div>
+        <div class="col-md-6">Bla</div>
+
+      </div>
+
+      <div class="container">
+        <div class="col-md-6">
+
+        </div>
+        <div class="col-md-6">
+          <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le
+            Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla
+            ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre
+            cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié.
+            Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem
+            Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+        </div>
+
+      </div>
+
+      <div class="container">
+        <div class="col-md-6">
+          <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le
+            Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla
+            ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre
+            cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié.
+            Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem
+            Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+        </div>
+        <div class="col-md-6">Bla</div>
+
+      </div>
+
+      <div class="container">
+        <h1>Lorem Ipsum</h1>
+        <div class="col-md-6">
+          <p>Lorem Ipsum</p>
+        </div>
+        <div class="col-md-6">
+          <p>Lorem Ipsum</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="container">
+          <button class="btn-primary">click</button>
+        </div>
+
+      </div>
+
+      <div class="container">
+        <h1>Demandez à nos utilisateurs</h1>
+        <h2>Tout le marketing du monde ne remplacera jamais ce que nos utilisateurs disent de nous.<br> C’est encore eux qui
+          parlent le mieux de notre service.</h2>
+        <div class="col-md-4">
+
+
+        </div>
+
+        <div class="col-md-4">
+
+
+        </div>
+
+        <div class="col-md-4">
+
+
+
+        </div>
+
+        <div class="container">
+          <div class="row"></div>
+          <div class="col-md-1 col-md-offset-1">
+            <p>test</p>
+          </div>
+
+          <div class="col-md-1">
+            <p>test</p>
+          </div>
+
+          <div class="col-md-1">
+            <p>test</p>
+          </div>
+
+          <div class="col-md-1">
+            <p>test</p>
+          </div>
+
+          <div class="col-md-1">
+            <p>test</p>
+          </div>
+
+          <div class="col-md-1">
+            <p>test</p>
+          </div>
+
+
+          <div class="col-md-1">
+            <p>test</p>
+          </div>
+
+
+          <div class="col-md-1">
+            <p>test</p>
+          </div>
+
+
+          <div class="col-md-1">
+            <p>test</p>
+          </div>
+
+
+          <div class="col-md-1">
+            <p>test</p>
+          </div>
+
+
+        </div>
+      </div>
+
+
+    </section>
+
+    <footer>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">1</div>
+          <div class="col-md-2">2</div>
+          <div class="col-md-2">3</div>
+          <div class="col-md-2">4</div>
+          <div class="col-md-2">5</div>
+          <div class="col-md-2">6</div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">1"</div>
+          <div class="col-md-6">2"</div>
+        </div>
+      </div>
+
+
+    </footer>
+
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script>
+      window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+</body>
+
 </html>
