@@ -1,5 +1,5 @@
 body{
-    margin-top: 50px;
+    
     font-family: 'Source Sans Pro', sans-serif;
     
 }
@@ -8,14 +8,25 @@ body{
 
 .navbar {
     background-color: rgba(33,49,77,.8);
-   
+   margin: 0;
 }
 
 .navbar img{
     margin-top: 13px;
-    margin-left: 15px;
+    margin-left: 220px;
     width:100px;
     height: auto;
+}
+
+#fr-flag {
+    width:24px;
+    height: 18px;
+    margin: auto;
+}
+
+.navbar li{
+    display: inline-block;
+    list-style-type: none;
 }
 
 .navbar button{
@@ -23,14 +34,39 @@ body{
     margin-right: 10px;
     background-color: #01C3A7;
     text-transform: uppercase;
+    width: 150px;
 }
 
+.navbar button:hover{
+    background-color: #01aa91;
+    border-color: #01aa91 #01aa91 #017766;
+    text-decoration: none;
+}
 .navbar a{
     color:white;
     display: inline-block;
     height: 100%;
     margin : auto;
+    font-weight:700;
+    text-decoration: none;
 }
+
+.navbar .row{
+    height: 100%;
+}
+#help{
+    display:inline-block;
+    height: 100%;
+    padding:10px;
+    margin-bottom: 0;
+}
+
+#help:hover{
+    background-color: #21314D;
+    text-decoration: none;
+    color:#fff;
+    height:100%;
+} 
 
 #fr-flag{
     height: 20px;
@@ -54,9 +90,17 @@ body{
 
 .container-fluid{
     height: 700px;
-    background-color: lightblue;
+    
     color:#fff;
+    
 }
+
+#main-block{
+    background-image: url('../img/train-bg.jpg');
+    background-size : cover;
+}
+  
+
 
 #main-block h1{
     font-weight: 900;
