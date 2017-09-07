@@ -20,6 +20,13 @@
     border: 1px solid orange;
 }
 
+.col-md-2 {
+    border: 1px solid tomato;
+}
+.col-md-4 {
+    border: 1px solid orangered;
+}
+
 
 /*GENERAL STYLES*/
 
@@ -31,6 +38,10 @@ body{
 
 body{
     text-align: center;
+}
+
+.container-fluid {
+    padding:0;
 }
 
 
@@ -80,7 +91,33 @@ body{
 
 /*ARGU*/
 
+
+
+#argu .container-fluid {
+    background-color: #F5F6F7;
+    ;
+}
+#first-illu {
+    background-image: url('../img/couple.jpg');
+    background-size : cover;
+    height: 600px;
+}
+
+#second-illu {
+    background-image: url('../img/high-speed-train.jpg');
+    background-size : cover;
+    height: 600px
+}
+
+#third-illu {
+    background-image: url('../img/rails.jpg');
+    background-size : cover;
+    height: 600px
+}
+
 /*HOW-TO*/
+
+
 
 /*GET-ONBOARD*/
 
