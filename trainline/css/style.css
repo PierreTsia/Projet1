@@ -1,5 +1,11 @@
 /*TEMP STYLES*/
 
+.container-fluid, .container {
+    border-collapse: collapse;
+}
+.container-fluid {
+    border: 2px solid darkred;
+}
 .container {
     border: 2px solid violet;
 }
@@ -25,6 +31,10 @@
 }
 .col-md-4 {
     border: 1px solid orangered;
+}
+
+footer div {
+    border: 0.5px dotted lightslategray;
 }
 
 
@@ -129,3 +139,7 @@ body{
 
 
 /*FOOTER*/
+
+footer ul{
+    list-style: none;
+}
