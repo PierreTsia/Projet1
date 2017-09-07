@@ -98,6 +98,13 @@ body{
 #main-block{
     background-image: url('../img/train-bg.jpg');
     background-size : cover;
+
+}
+
+#partners-title{
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 5px 5px 0 0;
 }
   
 
@@ -120,12 +127,7 @@ body{
     text-align: center;
 }
 
- #ember{
-    margin: auto;
-    margin-bottom: 50px;
-    height: 460px;
-    
-}
+
 
 #search-form {
    
@@ -141,9 +143,10 @@ body{
 
 .panel {
     width: 95%;
-    height: 100%;
+    height: 300px;
     background-color: #fff;
     margin-top:50px;
+    
     border-radius:5px;
     padding: 20px;
 
@@ -175,7 +178,7 @@ body{
 
 #partners {
     
-    background-color: blue;
+    background-color #fff;
 }
 
 section .col-md-6 p{
@@ -190,23 +193,30 @@ section .col-md-6 p{
     padding: 0;
 }
 
-
 .arguments {
-    height: 360px;
+    height: 400px;
     padding: 0;
 }
 
-.arguments-illu img{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+.arguments-illu {
+    height: 100%;   
 }
 
 #couple {
     background-image: url('../img/couple.jpg');
     background-size : cover;
-    padding: 0;
+}
+
+.arguments-text {
+    height: 100%;
+
+   
+}
+
+.text {
+    height: 100%;
+  
+
 }
 
 /*PROVISOIRE*/
@@ -215,3 +225,8 @@ section .col-md-6 p{
     border: 2px solid green;
 }
 
+.col-md-6{
+
+    border: 2px solid violet;
+
+}
