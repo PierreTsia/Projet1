@@ -4,6 +4,10 @@ body{
     
 }
 
+h1, h2, h3, p{
+    text-align: center;
+}
+
 /*NAVBAR*/
 
 .navbar {
@@ -86,16 +90,16 @@ body{
     padding: 0;
 }
 
-/*MAIN BLOCK*/
+/*BOOKING*/
 
-.container-fluid{
+#booking .container-fluid{
     height: 700px;
     
     color:#fff;
     
 }
 
-#main-block{
+#booking{
     background-image: url('../img/train-bg.jpg');
     background-size : cover;
 
@@ -118,7 +122,7 @@ body{
     
 }
 
-#main-block p{
+#booking p{
     
     text-shadow: 0 1px 4px rgba(48,50,58,.6);
     padding: 0 20 20 20;
@@ -161,6 +165,10 @@ body{
 }
 
 
+
+/*PARTNERS*/
+
+
 .primary-partner, .sec-partner {
     display: inline-block;
     
@@ -174,7 +182,7 @@ body{
     margin:10px;
 }
 
-#partners  {
+#partners-logo  {
     text-align: center;
     color: grey;
     padding: 0;
@@ -186,7 +194,7 @@ body{
     background-color #fff;
 }
 
-/*SECTION*/
+/*ARGUMENTS*/
 
 
 
@@ -201,9 +209,14 @@ section .col-md-6 p{
 
 h1,h2 {
     font-weight: 900;
+    text-align: center;
 }
 .arguments {
-    height: 400px;
+    height: 500px;
+    padding: 0;
+}
+
+.arguments-text {
     padding: 0;
 }
 
@@ -234,13 +247,36 @@ h1,h2 {
 
 .text {
     height: 100%;
-    padding-top: 100px;
+    padding: 150px 50px 0 50px;
     text-align: center;
+    background-color : lightgray;
   
 
 }
 
+/*HOW TO*/
 
+
+/*GET-ONBOARD*/
+
+#get-onboard .container-fluid {
+    background-color: #3F618C;
+    color: #fff;
+}
+
+#get-onboard .container-fluid button {
+  
+    background-color: #01C3A7;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+}
+
+#resa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 /*PROVISOIRE*/
 
