@@ -51,6 +51,33 @@ body{
 
 /*PARTNERS*/
 
+.primary-partners, .secondary-partners {
+    display: inline-block;
+}
+
+.primary-partners{
+    height: 60px;
+}
+
+.secondary-partners{
+    height: 40px;
+}
+.pp-logo  {
+    border: 1px solid black;
+   
+    width : 120px;
+    height: 100%;
+    
+}
+
+.sp-logo  {
+    border: 1px solid #E34242;
+    height: 100%;
+   
+    width : 100px;
+    
+}
+
 /*ARGU*/
 
 /*HOW-TO*/
