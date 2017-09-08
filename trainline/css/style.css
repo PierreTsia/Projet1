@@ -198,24 +198,58 @@ body{
 
 #argu .container-fluid {
     background-color: #F5F6F7;
-    ;
+    
+}
+
+#argu .row {
+    
+    height: 600px;
+    border: 2px solid black;
+}
+
+.argu-text-box{
+    
+    width:90%;
+    margin:180px auto auto auto;
+    text-align: left;
+}
+
+.argu-text-box h2{
+    font-weight: 900;
+    margin-bottom: .4em;
+    font-size:32px;
+    color: #21314D;
+}
+
+.argu-text-box p{
+    line-height: 1.75em;
+    color: #8C8A8C;
+    font-size: 19px;
+}
+
+.argu-text{
+    height: 100%;
 }
 #first-illu {
     background-image: url('../img/couple.jpg');
     background-size : cover;
-    height: 600px;
+    height: 100%;
+    
 }
 
 #second-illu {
     background-image: url('../img/high-speed-train.jpg');
     background-size : cover;
-    height: 600px
+    height: 100%;
+
+    
 }
 
 #third-illu {
     background-image: url('../img/rails.jpg');
     background-size : cover;
-    height: 600px
+    height: 100%;
+    
 }
 
 /*HOW-TO*/
@@ -246,9 +280,6 @@ body{
     margin :10px;
 }
 
-#feedback li:first-child{
-    margin-left:0;
-}
 
 .feedback-logo img{
     max-width:  80px;
