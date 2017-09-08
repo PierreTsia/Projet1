@@ -33,6 +33,10 @@
     border: 1px solid orangered;
 }
 
+.col-md-5{
+    border: 1px solid darkcyan;
+}
+
 footer div {
     border: 0.5px dotted lightslategray;
 }
@@ -253,6 +257,32 @@ body{
 }
 
 /*HOW-TO*/
+
+#how-to{
+    background-image: url('../img/dots-pattern.png')
+}
+
+#how-to .col-md-5{
+    height: 200px;
+}
+#how-to img{
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 1px solid blue;
+    
+}
+
+#how-to h2{
+    font-size: 28px;
+    margin-bottom: 1.2em;
+    color: #21314D;
+    font-weight: 900;
+}
+
+#how-to .or{
+    height: 200px;
+}
 
 
 
