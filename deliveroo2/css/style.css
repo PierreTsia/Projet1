@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body, html
+{
+    padding: 0;
+    margin: 0;
+}
+
+/*hearder*/
+#header 
+{
+    background-color: white;
+    
+}
+.container-Herder h1
+{
+
+}
+
+}
+.containerHearderH1
+{
+    font-weight: bold;
+}
+/*hearder*/
+
+/*sestion1*/
+#section1
+{
+    background-color: #00ccbc;
+}
+/*sestion1*/
+
+/*sestion2*/
+#section2
+{
+    background-color: white;
+}
+.food-item
+{
+    background-color: gray;
+    height: 50px;
+    border: 1px solid black;
+}
+/*sestion2*/
+
+/*sestion3*/
+#section3
+{
+    background-color: #E5BF7F;
+}
+/*sestion3*/
+
+/*sestion4*/
+
+
+
+/*sestion4*/
+
+/*sestion5*/
+
+/*sestion5*/
+
+
+/*footer*/
+footer
+{
+    background-color: black;       
+}
+/*footer*/
