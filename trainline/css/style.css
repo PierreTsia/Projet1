@@ -133,17 +133,25 @@ body{
 
 .panels{
     height: 500px;
-    background-color: #fff;
+    
     color:grey;
     margin-bottom:30px;
+    padding-top :30px;
 }
+
+.panels .col-md-6{
+    background-color:#fff;
+    border-radius:10px;
+    height: 400px;
+}
+
 .partner-p{
     width:90%;
     height: 110px;
     padding:10px;
     margin: auto;
     background-color: #fff;
-    border-radius: 5px 5px 0 0;
+    border-radius: 10px 10px 0 0;
     color:grey;
    
     
@@ -232,8 +240,23 @@ body{
 
 /*FEEDBACK*/
 
+#feedback li{
+    display : inline-block;
+    height:30px;
+    margin :10px;
+}
 
+#feedback li:first-child{
+    margin-left:0;
+}
 
+.feedback-logo img{
+    max-width:  80px;
+    height: auto;
+    opacity: 0.5;
+    
+}
+i
 /*FOOTER*/
 
 footer ul{
