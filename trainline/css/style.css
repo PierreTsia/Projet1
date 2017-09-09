@@ -264,11 +264,16 @@ body{
 
 #how-to .col-md-5{
     height: 200px;
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
 }
 #how-to img{
     display: inline-block;
-    max-width: 100%;
-    vertical-align: middle;
+    max-width: 100px;
+    margin: auto;
+   
     border: 1px solid blue;
     
 }
@@ -282,6 +287,18 @@ body{
 
 #how-to .or{
     height: 200px;
+    text-align: center;
+ 
+    text-transform: uppercase;
+    color:#CCC;
+    font-weight: 600;   
+    line-height: 15;
+}
+
+#how-to .col-md-12 p {
+    font-size : 18px;
+    line-height: 1.5em;
+    color : #8C8A8C;
 }
 
 
