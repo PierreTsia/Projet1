@@ -208,7 +208,7 @@ body{
 #argu .row {
     
     height: 600px;
-    border: 2px solid black;
+    
 }
 
 .argu-text-box{
@@ -372,4 +372,37 @@ background-color: #fff;
 
 footer ul{
     list-style: none;
+}
+
+footer {
+    text-align: left;
+    line-height: 20px;
+
+}
+
+footer ul {
+    margin :0;
+    padding: 0;
+    display: block;
+}
+
+footer li a, footer li p {
+    font-size: 12px;
+   
+}
+
+footer .col-md-12{
+    padding: 0;
+    margin: 0;
+}
+
+footer .col-lg-2{
+    padding : 0;
+}
+
+.footer-title {
+
+    height: 50px;
+    padding: 10px 10px 0 0;
+    margin-bottom: 10px;
 }
