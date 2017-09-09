@@ -336,6 +336,21 @@ body{
     background-color: #F5F6F7;
 }
 
+#feedback h2{
+    padding :30px 10px 10px 30px;
+    margin-top: 20px;
+    margin-bottom: .3em;
+    font-size: 32px;
+    color: #21314D;
+    font-weight: 900;
+}
+
+#feedback p {
+    font-size: 19px;
+    line-height: 1.5em;
+    color: #8C8A8C;
+    padding: 10px;
+}
 #feedback li{
     display : inline-block;
     height:30px;
