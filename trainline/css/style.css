@@ -146,14 +146,20 @@ body{
     flex-direction: row;
     justify-content: space-around;
     padding: 30px;
+    
 }
 
 .panel {
-    background-color:#fff;
+    background-color:#F7F8F7;
     border-radius:10px;
-    height: 400px;
+    height: 450px;
     width: 40%;
     margin: auto;
+}
+
+.panel-right {
+    padding: 0;
+    
 }
 
 .partner-p{
@@ -164,8 +170,88 @@ body{
     background-color: #fff;
     border-radius: 10px 10px 0 0;
     color:grey;
-   
+     
+}
+
+#booking .panels ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+}
+
+#booking .panels li {
+    border: 1px solid green;
+    width : 90%;
+    padding: 10px;
+    margin-left : 0; 
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#booking .panel-right ul {
+    padding-left:0; 
+}
+
+#booking .ico-booking{
+    display: block;
     
+    width : 50px;
+    height: 50px;
+    border-radius : 50%;
+    margin-right: 10px;
+}
+
+.panel-header{
+    background-color: #20304B;
+    color : #fff;
+    padding: 10px;
+    margin: 0;
+    border-radius : 10px 10px 0 0 ;
+    
+}
+
+.ico-booking {
+    background-color: #20304B;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.first-ico {
+
+    background-image: url('../img/logo-booking/icon-tag-white.svg');
+   
+
+}
+
+.second-ico{
+    background-image: url('../img/logo-booking/icon-loyalty-card-white.svg');
+}
+
+.third-ico {
+
+    background-image: url('../img/logo-booking/icon-payment-white.svg');
+
+}
+
+
+.panel-right .container {
+    padding: 10px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.panel-right .col-md-3{
+    height: 40px;
+    padding: 0;
+}
+
+#booking .pp-logo {
+    max-width: 100px;
+    max-height: auto;
 }
 
 
@@ -183,7 +269,7 @@ body{
     height: 40px;
 }
 .pp-logo  {
-    border: 1px solid black;
+   ;
     max-height: 40px;
    
     width : 120px;
@@ -192,7 +278,7 @@ body{
 }
 
 .sp-logo  {
-    border: 1px solid #E34242;
+   
     max-height: 20px;
    
     width: 100px;
