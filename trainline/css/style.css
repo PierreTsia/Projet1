@@ -381,8 +381,28 @@ body{
     color : #8C8A8C;
 }
 
+#how-to .col-md-6 {
+    
+    margin: 0;
+    padding: 0;
+}
+
+.payment{
+    border-right :0.5px solid lightgray;
+    padding-right : 0;
+    margin-right: 0;
 
 
+}
+.tickets{
+   
+    padding-left : 0;
+    margin-left: 0;
+}
+
+#how-to .container {
+    margin-bottom: 80px;
+}
 /*GET-ONBOARD*/
 
 #get-onboard .container-fluid {
