@@ -141,12 +141,19 @@ body{
     color:grey;
     margin-bottom:30px;
     padding-top :30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
 }
 
-.panels .col-md-6{
+.panel {
     background-color:#fff;
     border-radius:10px;
     height: 400px;
+    width: 40%;
+    margin: auto;
 }
 
 .partner-p{
@@ -160,6 +167,7 @@ body{
    
     
 }
+
 
 /*PARTNERS*/
 
