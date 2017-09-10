@@ -275,9 +275,12 @@ body{
 
 /*ARGU*/
 
+#argu .container {
+  
+    margin :50px auto 50px auto;
+}
 
-
-#argu .container-fluid {
+#argu .container-fluid:nth-child(2) {
     background-color: #F5F6F7;
     
 }
@@ -295,14 +298,14 @@ body{
     text-align: left;
 }
 
-.argu-text-box h2{
+.argu-text-box h2, #argu .container h2{
     font-weight: 900;
     margin-bottom: .4em;
     font-size:32px;
     color: #21314D;
 }
 
-.argu-text-box p{
+.argu-text-box p, #argu .container p{
     line-height: 1.75em;
     color: #8C8A8C;
     font-size: 19px;
