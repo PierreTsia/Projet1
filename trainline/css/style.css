@@ -1,10 +1,5 @@
 
-#hugo{
-    font-size:4em;
-    color:red;
-    text-transform: uppercase;
-    background-color:blue;
-}
+
 
 
 /*GENERAL STYLES*/
@@ -118,6 +113,7 @@ body{
     height: 450px;
     width: 40%;
     margin: auto;
+    border : 0;
    
 }
 
@@ -288,6 +284,7 @@ body{
 #argu .container-fluid:nth-child(2) {
     background-color: #F5F6F7;
     
+    
 }
 
 #argu .row {
@@ -343,6 +340,10 @@ body{
 
 /*HOW-TO*/
 
+#how-to h2{
+    margin-top:70px;
+}
+
 #how-to, #get-onboard {
     background-image: url('../img/dots-pattern.png')
 }
@@ -393,7 +394,7 @@ body{
 }
 
 .payment{
-    border-right :0.5px solid lightgray;
+   
     padding-right : 0;
     margin-right: 0;
 
@@ -408,11 +409,15 @@ body{
 #how-to .container {
     margin-bottom: 80px;
 }
+
+.payment{
+    border-right :0.5px solid lightgray;
+}
 /*GET-ONBOARD*/
 
 #get-onboard .container-fluid {
     height: 266px;
-    background-color: #3F618C;
+    background-color: rgba(63, 99, 140, 0.78);
     color: #fff;
     padding-top:50px;
 }
@@ -489,11 +494,18 @@ footer ul {
     margin :0;
     padding: 0;
     display: block;
+    line-height: 1.8;
 }
 
-footer li a, footer li p {
+footer li a, footer li p, footer p {
     font-size: 12px;
    
+}
+
+.store-logo {
+    width : 60%;
+    height: auto;
+    margin-bottom: 15px;
 }
 
 footer .col-md-12{
@@ -510,4 +522,55 @@ footer .col-lg-2{
     height: 50px;
     padding: 10px 10px 0 0;
     margin-bottom: 10px;
+}
+
+.footer-ul-title {
+   
+    color: #3367ab;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 12px;
+}
+
+.footer-ul-block{
+    height: 50px;
+    
+}
+
+.footer-upper{
+    background-color: #F5F6F7;
+    
+}
+
+.footer-lower{
+    background-color: #fff;
+}
+
+.footer-pay-logos{
+   
+height: 100px;
+   display : flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+
+.footer-social {
+    padding-left: 0;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+       
+}
+
+.footer-social img, .footer-social h5 {
+    margin-right: 10px;
+    
+}
+
+.footer-lower .container {
+    padding-left : 0;
 }
